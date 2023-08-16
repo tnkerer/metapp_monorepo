@@ -18,7 +18,8 @@ tasks:
     before: cd backend
     init: |
       echo '📦 Installing Dependencies'
-      npm install && npm run build
+      npm install && npx prisma migrate dev
+      npm run build
       cp .env.template .env
   - name: Docker Setup
     before: cd backend
@@ -32,7 +33,6 @@ tasks:
     before: cd backend
     init: |
       gp sync-await "docker-up" && sleep 45s
-      npx prisma migrate dev
       
     command: |
       gp sync-await "docker-up" && sleep 5s
