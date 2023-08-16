@@ -19,8 +19,8 @@ tasks:
     init: |
       echo '📦 Installing Dependencies'
       npm install && npx prisma migrate dev
-      npm run build
       cp .env.template .env
+      npm run build
   - name: Docker Setup
     before: cd backend
     command: |
