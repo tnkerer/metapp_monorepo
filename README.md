@@ -55,7 +55,7 @@
      <img src="https://user-images.githubusercontent.com/78161484/199641340-d7b3f519-e30d-4f35-a870-8232d2f7ffeb.svg" alt="Prisma" width="40" height="40" style="margin-right: 1rem;"/>
      </a>
      <a href="https://gitpod.io/" target="_blank" rel="noreferrer">
-     <img src="https://gitpod.io/static/media/gitpod.a7ab6752.svg" alt="Gitpod" width="40" height="40" style="margin-right: 1rem;"/>
+     <img src="https://raw.githubusercontent.com/gitpod-io/gitpod/master/components/dashboard/src/icons/gitpod.svg" alt="Gitpod" width="40" height="40" style="margin-right: 1rem;"/>
      </a>
      <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" width="40" height="40" style="margin-right: 1rem;"/>
